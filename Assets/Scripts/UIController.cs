@@ -37,7 +37,11 @@ public class UIController : MonoBehaviour
 
     public void UpdateExperienceSlider()
     {
-        playerExperienceSlider.maxValue = PlayerController.Instance.playerLevels[PlayerController.Instance.currentLevel - 1];
+        int levelIndex = PlayerController.Instance.currentLevel - 1;
+        if (levelIndex >= PlayerController.Instance.playerLevels.Count)
+            levelIndex = PlayerController.Instance.playerLevels.Count - 1;
+
+        playerExperienceSlider.maxValue = PlayerController.Instance.playerLevels[levelIndex];
         playerExperienceSlider.value = PlayerController.Instance.experience;
         experienceText.text = playerExperienceSlider.value + " / " + playerExperienceSlider.maxValue;
     }

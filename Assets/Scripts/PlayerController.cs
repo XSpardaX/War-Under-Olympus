@@ -109,6 +109,14 @@ public class PlayerController : MonoBehaviour
     {
         experience += experienceToGet;
         UIController.Instance.UpdateExperienceSlider();
+        CheckForLevelUp();
+    }
+
+    public void CheckForLevelUp()
+    {
+        if (currentLevel - 1 >= playerLevels.Count)
+            return;
+
         if (experience >= playerLevels[currentLevel - 1])
         {
             LevelUp();
@@ -120,7 +128,6 @@ public class PlayerController : MonoBehaviour
         experience -= playerLevels[currentLevel - 1];
         currentLevel++;
         UIController.Instance.UpdateExperienceSlider();
-        //UIController.Instance.levelUpButtons[0].ActivateButton(activeWeapon);
 
         upgradeableWeapons.Clear();
 

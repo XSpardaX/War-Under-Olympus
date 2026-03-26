@@ -237,6 +237,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1309,7 +1335,55 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      buildings_32px_0: -8263528786611844494
+      buildings_32px_1: -500102208430019345
+      buildings_32px_10: 8033012822160796526
+      buildings_32px_11: 5329066151978199324
+      buildings_32px_12: -4340429491766574682
+      buildings_32px_13: 2041886952990029769
+      buildings_32px_14: 8750234127148998026
+      buildings_32px_15: -3269272826680765394
+      buildings_32px_16: 975922031773933417
+      buildings_32px_17: -32693791763022368
+      buildings_32px_18: -6163204864327488230
+      buildings_32px_19: -6047699169160694217
+      buildings_32px_2: 7740434137415895966
+      buildings_32px_20: 405419500376032114
+      buildings_32px_21: -5558042650218458198
+      buildings_32px_22: -8282003746996410222
+      buildings_32px_23: 6375153127195204620
+      buildings_32px_24: -7391874032415609822
+      buildings_32px_25: 4101942306070952878
+      buildings_32px_26: 6966977457587174105
+      buildings_32px_27: 273170800403517153
+      buildings_32px_28: 8627601278612502563
+      buildings_32px_29: -3189210258786479197
+      buildings_32px_3: -1554148532492283963
+      buildings_32px_30: 8735401312418192951
+      buildings_32px_31: -611267593167297384
+      buildings_32px_32: -3166833305281701774
+      buildings_32px_33: -7449230932872655671
+      buildings_32px_34: -4737908348056451254
+      buildings_32px_35: 7418139884336870545
+      buildings_32px_36: 2347474211761776432
+      buildings_32px_37: -7173120304100236371
+      buildings_32px_38: -3784865313197189998
+      buildings_32px_39: 9104132684727256892
+      buildings_32px_4: 5137527911953998083
+      buildings_32px_40: 5750659104809332378
+      buildings_32px_41: 6624455640453555827
+      buildings_32px_42: -2386003476672609104
+      buildings_32px_43: -4460609961650464883
+      buildings_32px_44: 3192773138585516784
+      buildings_32px_45: -2606151135676455564
+      buildings_32px_46: -7938201710899252100
+      buildings_32px_47: 8196243389531780504
+      buildings_32px_5: -2265566372921307918
+      buildings_32px_6: 4547401340413163409
+      buildings_32px_7: -1609648693305027983
+      buildings_32px_8: 4678691828901220531
+      buildings_32px_9: 5993684781360342492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

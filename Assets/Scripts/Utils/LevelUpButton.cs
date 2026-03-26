@@ -33,5 +33,6 @@ public class LevelUpButton : MonoBehaviour
 
         UIController.Instance.LevelUpPanelClose();
         AudioController.Instance.PlaySound(AudioController.Instance.selectUpgrade);
+        PlayerController.Instance.CheckForLevelUp();
     }
 }
